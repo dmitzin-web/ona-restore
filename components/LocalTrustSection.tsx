@@ -28,7 +28,7 @@ export default function LocalTrustSection() {
             </a>
 
             <a
-              href="/insurance-claims"
+              href="/restoration"
               className="rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-4 text-sm text-neutral-200 transition hover:border-white/25"
             >
               Insurance claim support

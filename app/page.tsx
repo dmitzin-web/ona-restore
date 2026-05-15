@@ -200,10 +200,10 @@ export default function HomePage() {
             </p>
 
             <a
-              href="/insurance-claims"
+              href="/restoration"
               className="mt-8 inline-flex rounded-full border border-white/10 px-7 py-3.5 text-sm font-medium transition hover:border-white/30"
             >
-              Insurance Claim Support
+              Restoration Documentation
             </a>
           </div>
         </div>

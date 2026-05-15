@@ -110,8 +110,8 @@ export default function LocationPage({
                 Bathroom Remodeling
               </a>
 
-              <a href="/insurance-claims" className="rounded-full border border-white/15 px-5 py-3 text-neutral-200">
-                Insurance Claims
+              <a href="/restoration" className="rounded-full border border-white/15 px-5 py-3 text-neutral-200">
+                Restoration Documentation
               </a>
             </div>
           </section>

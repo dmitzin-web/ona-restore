@@ -153,8 +153,8 @@ export default function RemodelingPage() {
                 Reconstruction
               </a>
 
-              <a href="/insurance-claims" className="rounded-full border border-white/15 px-5 py-3 text-neutral-200">
-                Insurance Claims
+              <a href="/restoration" className="rounded-full border border-white/15 px-5 py-3 text-neutral-200">
+                Restoration Documentation
               </a>
 
               <a href="/locations" className="rounded-full border border-white/15 px-5 py-3 text-neutral-200">
