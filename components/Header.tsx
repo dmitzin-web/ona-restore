@@ -37,6 +37,10 @@ export default function Header() {
     Claims
   </Link>
 
+  <Link href="/locations" className="hover:text-white">
+    Areas
+  </Link>
+
   <Link href="/contact" className="hover:text-white">
     Contact
   </Link>

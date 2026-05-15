@@ -9,11 +9,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: `${baseUrl}/restoration`,
+      lastModified: new Date(),
+    },
+    {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/restoration`,
+      url: `${baseUrl}/locations`,
       lastModified: new Date(),
     },
     {
