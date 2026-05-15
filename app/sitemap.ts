@@ -36,5 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/camas-wa`,
   lastModified: new Date(),
 },
+{
+  url: `${baseUrl}/washougal-wa`,
+  lastModified: new Date(),
+},
+{
+  url: `${baseUrl}/battle-ground-wa`,
+  lastModified: new Date(),
+},
   ]
 }
