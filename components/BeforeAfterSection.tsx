@@ -1,17 +1,17 @@
 const projects = [
   {
     title: 'Water Damage Reconstruction',
-    before:
-      'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop',
+    location: 'Vancouver WA',
+    type: 'Water Damage · Reconstruction',
+    before: '/projects/project-placeholder-before.svg',
+    after: '/projects/project-placeholder-after.svg',
   },
   {
     title: 'Kitchen Rebuild After Leak',
-    before:
-      'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?q=80&w=1200&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop',
+    location: 'Clark County WA',
+    type: 'Kitchen Remodeling · Water Damage',
+    before: '/projects/project-placeholder-before.svg',
+    after: '/projects/project-placeholder-after.svg',
   },
 ]
 
@@ -25,8 +25,13 @@ export default function BeforeAfterSection() {
           </p>
 
           <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] md:text-6xl">
-            Before & after restoration work.
+            Before & after project documentation.
           </h2>
+
+          <p className="mt-6 text-lg leading-8 text-neutral-400">
+            Real project photos will be added here as ONA Restoration documents
+            completed restoration, reconstruction, kitchen, and bathroom work.
+          </p>
         </div>
 
         <div className="mt-16 space-y-16">
@@ -35,13 +40,19 @@ export default function BeforeAfterSection() {
               key={project.title}
               className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-6"
             >
-              <div className="flex items-center justify-between">
-                <h3 className="text-2xl font-medium">
-                  {project.title}
-                </h3>
+              <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
+                    {project.type}
+                  </p>
+
+                  <h3 className="mt-3 text-2xl font-medium">
+                    {project.title}
+                  </h3>
+                </div>
 
                 <span className="text-sm text-neutral-500">
-                  Vancouver WA
+                  {project.location}
                 </span>
               </div>
 
@@ -53,8 +64,8 @@ export default function BeforeAfterSection() {
 
                   <img
                     src={project.before}
-                    alt={`${project.title} before`}
-                    className="aspect-[4/3] w-full rounded-2xl object-cover"
+                    alt={`${project.title} before restoration work in ${project.location}`}
+                    className="aspect-[4/3] w-full rounded-2xl border border-white/10 object-cover"
                   />
                 </div>
 
@@ -65,14 +76,19 @@ export default function BeforeAfterSection() {
 
                   <img
                     src={project.after}
-                    alt={`${project.title} after`}
-                    className="aspect-[4/3] w-full rounded-2xl object-cover"
+                    alt={`${project.title} after restoration work in ${project.location}`}
+                    className="aspect-[4/3] w-full rounded-2xl border border-white/10 object-cover"
                   />
                 </div>
               </div>
             </div>
           ))}
         </div>
+
+        <p className="mt-10 text-sm leading-6 text-neutral-600">
+          Project images should be original, compressed, and named with relevant
+          service and location keywords before upload.
+        </p>
       </div>
     </section>
   )

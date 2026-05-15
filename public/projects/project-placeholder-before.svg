@@ -1,0 +1,6 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#111111"/>
+  <rect x="80" y="80" width="1040" height="740" rx="40" fill="#181818" stroke="#333333"/>
+  <text x="120" y="180" fill="#777777" font-family="Arial" font-size="40">Before Project Photo</text>
+  <text x="120" y="245" fill="#444444" font-family="Arial" font-size="26">Replace this with a real restoration photo</text>
+</svg>
