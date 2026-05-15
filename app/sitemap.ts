@@ -44,5 +44,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   url: `${baseUrl}/battle-ground-wa`,
   lastModified: new Date(),
 },
+{
+  url: `${baseUrl}/ridgefield-wa`,
+  lastModified: new Date(),
+},
+{
+  url: `${baseUrl}/salmon-creek-wa`,
+  lastModified: new Date(),
+},
+{
+  url: `${baseUrl}/hazel-dell-wa`,
+  lastModified: new Date(),
+},
   ]
 }
