@@ -1,3 +1,4 @@
+import EmergencyBanner from '@/components/EmergencyBanner'
 import StickyMobileCTA from '@/components/StickyMobileCTA'
 import Header from '@/components/Header'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -39,6 +40,7 @@ export default function RootLayout({
     >
 <body className="min-h-full bg-neutral-950 text-white">
   <LocalBusinessSchema />
+  <EmergencyBanner />
   <Header />
   {children}
   <StickyMobileCTA />
