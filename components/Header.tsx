@@ -58,7 +58,7 @@ export default function Header() {
           </div>
 
           <Link href="/kitchen-bathroom-remodeling" className="hover:text-white">
-            Kitchen & Bathroom
+            Remodeling
           </Link>
 
           <Link href="/insurance-claims" className="hover:text-white">

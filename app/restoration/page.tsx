@@ -24,7 +24,7 @@ const services = [
       'Drywall, texture, paint, trim, flooring, cabinets, and interior rebuild work after mitigation.',
   },
   {
-    title: 'Kitchen & Bathroom Remodeling',
+    title: 'Remodeling Remodeling',
     href: '/kitchen-bathroom-remodeling',
     description:
       'Kitchen remodeling, bathroom remodeling, cabinets, flooring, tile, drywall, paint, trim, and interior upgrades.',

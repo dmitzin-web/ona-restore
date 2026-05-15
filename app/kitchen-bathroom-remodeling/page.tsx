@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Kitchen & Bathroom Remodeling in Vancouver WA | ONA Restoration',
+  title: 'Remodeling Remodeling in Vancouver WA | ONA Restoration',
   description:
     'Kitchen remodeling, bathroom remodeling, reconstruction, cabinets, flooring, drywall, tile, paint, and interior renovation services in Vancouver WA and Clark County.',
 }
@@ -9,11 +9,11 @@ export default function KitchenBathroomPage() {
     <main className="min-h-screen bg-neutral-950 text-white">
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-neutral-500">
-          Kitchen & Bathroom Remodeling
+          Remodeling Remodeling
         </p>
 
         <h1 className="max-w-5xl text-5xl font-semibold tracking-[-0.05em] md:text-7xl">
-          Kitchen and bathroom remodeling in Vancouver, WA.
+          Kitchen and bathroom remodeling services in Vancouver, WA.
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-400">
