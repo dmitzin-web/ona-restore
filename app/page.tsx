@@ -1,3 +1,4 @@
+import ProcessSection from '@/components/ProcessSection'
 import LocalTrustSection from '@/components/LocalTrustSection'
 import ReviewSchema from '@/components/ReviewSchema'
 import ReviewsSection from '@/components/ReviewsSection'
@@ -268,6 +269,7 @@ export default function HomePage() {
       </section>
       <BeforeAfterSection />
       <LocalTrustSection />
+      <ProcessSection />
       <ReviewsSection />
     </main>
   )
