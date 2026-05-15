@@ -68,8 +68,8 @@ export default function Footer() {
               <div>Vancouver, Washington</div>
               <div>Clark County & Portland Metro</div>
               <div>
-                <a href="tel:+13600000000" className="hover:text-white">
-                  +1 (360) 000-0000
+                <a href="tel:+13608233196" className="hover:text-white">
+                  +1 (360) 823-3196
                 </a>
               </div>
             </div>

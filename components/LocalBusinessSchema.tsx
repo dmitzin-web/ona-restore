@@ -4,7 +4,7 @@ export default function LocalBusinessSchema() {
     '@type': 'HomeAndConstructionBusiness',
     name: 'ONA Restoration',
     url: 'https://onarestore.com',
-    telephone: '+1-360-000-0000',
+    telephone: '+1-360-823-3196',
     description:
       'Restoration and remodeling company serving Vancouver WA, Clark County, and the Portland metro area. Services include water damage restoration, fire and smoke damage restoration, mold remediation, reconstruction, and remodeling.',
     areaServed: [

@@ -19,7 +19,7 @@ export default function ServiceSchema({
       '@type': 'HomeAndConstructionBusiness',
       name: 'ONA Restoration',
       url: 'https://onarestore.com',
-      telephone: '+1-360-000-0000',
+      telephone: '+1-360-823-3196',
     },
     areaServed: [
       {

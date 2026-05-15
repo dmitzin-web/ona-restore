@@ -6,7 +6,7 @@ export default function EmergencyBanner() {
           Emergency property damage? Water, fire, smoke, mold, or rebuild support.
         </span>
 
-        <a href="tel:+13600000000" className="underline underline-offset-4">
+        <a href="tel:+13608233196" className="underline underline-offset-4">
           Call ONA Restoration
         </a>
       </div>

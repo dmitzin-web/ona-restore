@@ -24,7 +24,7 @@ export default function CamasPage() {
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
-            href="tel:+13600000000"
+            href="tel:+13608233196"
             className="rounded-full bg-white px-8 py-4 text-center font-medium text-black"
           >
             Call Now

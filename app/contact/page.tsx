@@ -71,7 +71,7 @@ export default function ContactPage() {
             </p>
 
             <a
-              href="tel:+13600000000"
+              href="tel:+13608233196"
               className="mt-4 inline-flex rounded-full bg-white px-6 py-3 text-sm font-medium text-black"
             >
               Call Now

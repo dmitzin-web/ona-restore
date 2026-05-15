@@ -66,7 +66,7 @@ export default function HomePage() {
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+13600000000"
+                href="tel:+13608233196"
                 className="rounded-full bg-white px-7 py-3.5 text-center text-sm font-medium text-black transition hover:bg-neutral-200"
               >
                 Call Now
@@ -251,7 +251,7 @@ export default function HomePage() {
 
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:+13600000000"
+              href="tel:+13608233196"
               className="rounded-full bg-white px-7 py-3.5 text-center text-sm font-medium text-black"
             >
               Call Now

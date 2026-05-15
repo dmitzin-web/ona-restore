@@ -56,7 +56,7 @@ export default function FireSmokeDamagePage() {
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a href="tel:+13600000000" className="rounded-full bg-white px-8 py-4 text-center font-medium text-black">
+          <a href="tel:+13608233196" className="rounded-full bg-white px-8 py-4 text-center font-medium text-black">
             Call Now
           </a>
           <a href="/contact" className="rounded-full border border-white/20 px-8 py-4 text-center font-medium">
