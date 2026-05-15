@@ -117,6 +117,20 @@ export default function LocationPage({
               >
                 Insurance Claims
               </a>
+
+              <a
+                href="/kitchen-remodeling"
+                className="rounded-full border border-white/15 px-5 py-3 text-neutral-200"
+              >
+                Kitchen Remodeling
+              </a>
+
+              <a
+                href="/bathroom-remodeling"
+                className="rounded-full border border-white/15 px-5 py-3 text-neutral-200"
+              >
+                Bathroom Remodeling
+              </a>
             </div>
           </section>
         </div>
