@@ -1,4 +1,5 @@
 import ReviewsSection from '@/components/ReviewsSection'
+import BeforeAfterSection from '@/components/BeforeAfterSection'
 export const metadata = {
   title: 'ONA Restore | Restoration & Remodeling in Vancouver WA',
   description:
@@ -215,6 +216,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <BeforeAfterSection />
       <ReviewsSection />
     </main>
   )
