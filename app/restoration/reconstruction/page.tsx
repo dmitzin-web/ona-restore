@@ -1,3 +1,4 @@
+import ServiceSchema from '@/components/ServiceSchema'
 export const metadata = {
   title: 'Reconstruction Services in Vancouver WA',
   description:
@@ -7,6 +8,11 @@ export const metadata = {
 export default function ReconstructionPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+        <ServiceSchema
+  name="Reconstruction Services"
+  description="Reconstruction after water, fire, smoke, mold, and storm damage, including drywall, flooring, trim, paint, cabinets, and interior rebuild work."
+  url="https://onarestore.com/restoration/reconstruction"
+/>
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
           Reconstruction · Repairs · Remodeling

@@ -1,3 +1,4 @@
+import ServiceSchema from '@/components/ServiceSchema'
 export const metadata = {
   title: 'Fire & Smoke Damage Restoration in Vancouver WA',
   description:
@@ -7,6 +8,11 @@ export const metadata = {
 export default function FireSmokeDamagePage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+        <ServiceSchema
+  name="Fire and Smoke Damage Restoration"
+  description="Fire damage, smoke damage, soot, odor, reconstruction, and insurance-related repair documentation support in Vancouver WA and Portland metro."
+  url="https://onarestore.com/restoration/fire-smoke-damage"
+/>
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
           Fire & Smoke Damage · Vancouver WA · Portland Metro
