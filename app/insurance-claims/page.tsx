@@ -1,3 +1,28 @@
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
+const insuranceClaimFaqs = [
+  {
+    question: 'Does ONA Restoration act as a public adjuster?',
+    answer:
+      'No. ONA Restoration is not a public adjuster and does not make coverage determinations. Coverage depends on the insurance policy and carrier.',
+  },
+  {
+    question: 'What documentation can help with a property damage claim?',
+    answer:
+      'Photos, affected materials, room-by-room observations, measurements, repair scope notes, and clear reconstruction planning can help organize the claim and repair process.',
+  },
+  {
+    question: 'Can ONA Restoration review an insurance estimate?',
+    answer:
+      'ONA Restoration can review visible repair needs and project scope from a contractor perspective, but does not provide legal advice or determine insurance coverage.',
+  },
+  {
+    question: 'Why does repair scope matter after mitigation?',
+    answer:
+      'Mitigation may remove or dry affected materials, but the home still needs to be repaired. Reconstruction scope helps define what must be rebuilt after the damage is addressed.',
+  },
+]
+
 export const metadata = {
   title: 'Insurance Claim Help for Property Damage',
   description:
@@ -7,6 +32,7 @@ export const metadata = {
 export default function InsuranceClaimsPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={insuranceClaimFaqs} />
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
           Property Damage Claims · Documentation · Repair Scope
@@ -105,6 +131,7 @@ export default function InsuranceClaimsPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={insuranceClaimFaqs} />
     </main>
   )
 }

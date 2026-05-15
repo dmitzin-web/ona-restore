@@ -1,4 +1,29 @@
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
 import ServiceSchema from '@/components/ServiceSchema'
+const reconstructionFaqs = [
+  {
+    question: 'What is reconstruction after mitigation?',
+    answer:
+      'Reconstruction is the repair and rebuild phase after damaged materials are removed or dried. It can include drywall, texture, paint, trim, flooring, cabinets, and finish repairs.',
+  },
+  {
+    question: 'Is mitigation the same as reconstruction?',
+    answer:
+      'No. Mitigation stops or reduces damage, while reconstruction repairs and rebuilds the affected areas after mitigation is complete.',
+  },
+  {
+    question: 'Can reconstruction include upgrades?',
+    answer:
+      'Yes. Some homeowners choose to upgrade finishes during the rebuild phase, especially in kitchens, bathrooms, flooring areas, and interior spaces.',
+  },
+  {
+    question: 'Does ONA Restoration handle insurance-related repair scope?',
+    answer:
+      'ONA Restoration can help document visible repair needs and reconstruction scope. Coverage decisions depend on the policy and insurance carrier.',
+  },
+]
+
 export const metadata = {
   title: 'Reconstruction Services in Vancouver WA',
   description:
@@ -8,6 +33,7 @@ export const metadata = {
 export default function ReconstructionPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={reconstructionFaqs} />
         <ServiceSchema
   name="Reconstruction Services"
   description="Reconstruction after water, fire, smoke, mold, and storm damage, including drywall, flooring, trim, paint, cabinets, and interior rebuild work."
@@ -106,6 +132,7 @@ export default function ReconstructionPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={reconstructionFaqs} />
     </main>
   )
 }

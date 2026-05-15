@@ -1,3 +1,28 @@
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
+const moldFaqs = [
+  {
+    question: 'What causes mold after water damage?',
+    answer:
+      'Mold can develop when moisture remains trapped in drywall, flooring, cabinets, insulation, crawlspaces, or other building materials for an extended period.',
+  },
+  {
+    question: 'Should mold be tested before remediation?',
+    answer:
+      'Testing depends on the situation, visible conditions, project size, health concerns, and whether third-party documentation is needed. Some projects may also require professional assessment.',
+  },
+  {
+    question: 'Can mold return after repairs?',
+    answer:
+      'Yes, if the original moisture source is not corrected. Proper repair planning should address the water source, affected materials, and conditions that allowed mold growth.',
+  },
+  {
+    question: 'Does ONA Restoration rebuild after mold remediation?',
+    answer:
+      'Yes. ONA Restoration can help repair drywall, trim, flooring, paint, insulation, cabinets, and other finishes after affected materials are removed.',
+  },
+]
+
 export const metadata = {
   title: 'Mold Remediation in Vancouver WA',
   description:
@@ -7,6 +32,7 @@ export const metadata = {
 export default function MoldRemediationPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={moldFaqs} />
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
           Mold Remediation · Vancouver WA · Clark County
@@ -100,6 +126,7 @@ export default function MoldRemediationPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={moldFaqs} />
     </main>
   )
 }

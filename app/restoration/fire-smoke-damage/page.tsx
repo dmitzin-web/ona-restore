@@ -1,4 +1,29 @@
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
 import ServiceSchema from '@/components/ServiceSchema'
+const fireSmokeFaqs = [
+  {
+    question: 'What should I do after fire or smoke damage?',
+    answer:
+      'If it is safe, take photos before moving items, avoid wiping soot from surfaces, ventilate only if appropriate, and request an inspection so affected materials and repair needs can be documented.',
+  },
+  {
+    question: 'Can smoke damage affect rooms away from the fire?',
+    answer:
+      'Yes. Smoke, soot, and odor can travel through air movement, HVAC pathways, open doors, and pressure changes. Rooms away from the fire source may still need inspection.',
+  },
+  {
+    question: 'Does smoke odor require more than cleaning?',
+    answer:
+      'Sometimes. Smoke odor may require cleaning, sealing, removal of porous materials, HVAC-related review, and reconstruction depending on the severity and affected surfaces.',
+  },
+  {
+    question: 'Can ONA Restoration help with reconstruction after fire damage?',
+    answer:
+      'Yes. ONA Restoration can help with drywall, paint, trim, flooring, cabinets, and interior rebuild work after fire and smoke-related damage.',
+  },
+]
+
 export const metadata = {
   title: 'Fire & Smoke Damage Restoration in Vancouver WA',
   description:
@@ -8,6 +33,7 @@ export const metadata = {
 export default function FireSmokeDamagePage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={fireSmokeFaqs} />
         <ServiceSchema
   name="Fire and Smoke Damage Restoration"
   description="Fire damage, smoke damage, soot, odor, reconstruction, and insurance-related repair documentation support in Vancouver WA and Portland metro."
@@ -107,6 +133,7 @@ export default function FireSmokeDamagePage() {
           </section>
         </div>
       </section>
+      <FaqSection items={fireSmokeFaqs} />
     </main>
   )
 }
