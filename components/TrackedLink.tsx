@@ -10,12 +10,6 @@ type TrackedLinkProps = {
   children: ReactNode
 }
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void
-  }
-}
-
 export default function TrackedLink({
   href,
   eventName,
