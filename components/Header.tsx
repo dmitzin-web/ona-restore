@@ -13,6 +13,10 @@ export default function Header() {
     Home
   </Link>
 
+  <Link href="/restoration" className="hover:text-white">
+    Restoration
+  </Link>
+
   <Link href="/restoration/water-damage" className="hover:text-white">
     Water
   </Link>
