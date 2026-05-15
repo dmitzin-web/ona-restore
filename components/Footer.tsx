@@ -115,6 +115,34 @@ export default function Footer() {
               >
                 View All Areas
               </a>
+
+              <a
+                href="/about"
+                className="text-neutral-300 transition hover:text-white"
+              >
+                About
+              </a>
+
+              <a
+                href="/projects"
+                className="text-neutral-300 transition hover:text-white"
+              >
+                Projects
+              </a>
+
+              <a
+                href="/reviews"
+                className="text-neutral-300 transition hover:text-white"
+              >
+                Reviews
+              </a>
+
+              <a
+                href="/learn"
+                className="text-neutral-300 transition hover:text-white"
+              >
+                Guides
+              </a>
             </div>
           </div>
         </div>

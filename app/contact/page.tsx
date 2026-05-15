@@ -1,35 +1,41 @@
 'use client'
 
 import { useState } from 'react'
-import { supabase } from '@/lib/supabase'
 
 export default function ContactPage() {
   const [status, setStatus] = useState('')
+  const [loading, setLoading] = useState(false)
 
   async function handleSubmit(formData: FormData) {
-    const lead = {
-      name: String(formData.get('name')),
-      phone: String(formData.get('phone')),
-      email: String(formData.get('email')),
-      damage_type: String(formData.get('damage_type')),
-      message: [
-        `Property Address: ${String(formData.get('property_address'))}`,
-        `Urgency: ${String(formData.get('urgency'))}`,
-        `Insurance Company: ${String(formData.get('insurance_company'))}`,
-        `Claim Number: ${String(formData.get('claim_number'))}`,
-        '',
-        String(formData.get('message')),
-      ].join('\n'),
-    }
+    setLoading(true)
+    setStatus('')
 
-    const { error } = await supabase.from('leads').insert(lead)
+    const payload = Object.fromEntries(formData.entries())
 
-    if (error) {
+    try {
+      const response = await fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+
+      const result = await response.json()
+
+      if (!response.ok) {
+        setStatus(result.error || 'Something went wrong. Please call us directly.')
+        return
+      }
+
+      window.gtag?.('event', 'lead_submit', {
+        form_name: 'contact_page',
+      })
+
+      setStatus('Thank you. Your request has been submitted.')
+    } catch {
       setStatus('Something went wrong. Please call us directly.')
-      return
+    } finally {
+      setLoading(false)
     }
-
-    setStatus('Thank you. Your request has been submitted.')
   }
 
   return (
@@ -49,22 +55,6 @@ export default function ContactPage() {
             involved, and how urgent the situation is.
           </p>
 
-          <div className="mt-12 grid gap-4 sm:grid-cols-2">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
-              <p className="text-sm text-neutral-500">Service Area</p>
-              <h2 className="mt-3 text-2xl font-medium">
-                Vancouver WA & Clark County
-              </h2>
-            </div>
-
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
-              <p className="text-sm text-neutral-500">Project Types</p>
-              <h2 className="mt-3 text-2xl font-medium">
-                Water · Fire · Mold · Remodel
-              </h2>
-            </div>
-          </div>
-
           <div className="mt-10 rounded-3xl border border-white/10 bg-white/[0.03] p-6">
             <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
               Need urgent help?
@@ -72,15 +62,18 @@ export default function ContactPage() {
 
             <a
               href="tel:+13608233196"
+              onClick={() => window.gtag?.('event', 'phone_click', { location: 'contact_page' })}
               className="mt-4 inline-flex rounded-full bg-white px-6 py-3 text-sm font-medium text-black"
             >
-              Call Now
+              Call (360) 823-3196
             </a>
           </div>
         </div>
 
         <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-6 md:p-8">
           <form action={handleSubmit} className="space-y-5">
+            <input name="website" type="text" tabIndex={-1} autoComplete="off" className="hidden" />
+
             <input name="name" required type="text" placeholder="Name" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
             <input name="phone" required type="tel" placeholder="Phone" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
             <input name="email" type="email" placeholder="Email" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
@@ -112,8 +105,8 @@ export default function ContactPage() {
               className="min-h-44 w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
             />
 
-            <button className="w-full rounded-full bg-white px-8 py-4 font-medium text-black">
-              Submit Request
+            <button disabled={loading} className="w-full rounded-full bg-white px-8 py-4 font-medium text-black disabled:opacity-60">
+              {loading ? 'Submitting...' : 'Submit Request'}
             </button>
           </form>
 

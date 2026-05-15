@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 import Footer from '@/components/Footer'
 import EmergencyBanner from '@/components/EmergencyBanner'
 import StickyMobileCTA from '@/components/StickyMobileCTA'
@@ -40,7 +41,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
 <body className="min-h-full bg-neutral-950 text-white">
-  <LocalBusinessSchema />
+  <GoogleAnalytics />
+        <LocalBusinessSchema />
   <EmergencyBanner />
   <Header />
   {children}
