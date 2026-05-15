@@ -1,3 +1,4 @@
+import ServiceAreasSection from '@/components/ServiceAreasSection'
 import FaqSchema from '@/components/FaqSchema'
 import FaqSection from '@/components/FaqSection'
 const insuranceClaimFaqs = [
@@ -132,6 +133,7 @@ export default function InsuranceClaimsPage() {
         </div>
       </section>
       <FaqSection items={insuranceClaimFaqs} />
+      <ServiceAreasSection />
     </main>
   )
 }

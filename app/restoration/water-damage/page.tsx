@@ -1,3 +1,4 @@
+import ServiceAreasSection from '@/components/ServiceAreasSection'
 export const metadata = {
   title: 'Water Damage Restoration in Vancouver WA | ONA Restoration',
   description:
@@ -111,6 +112,7 @@ export default function WaterDamagePage() {
           </section>
         </div>
       </section>
+      <ServiceAreasSection />
     </main>
   )
 }

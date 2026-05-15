@@ -1,3 +1,4 @@
+import ServiceAreasSection from '@/components/ServiceAreasSection'
 import FaqSchema from '@/components/FaqSchema'
 import FaqSection from '@/components/FaqSection'
 const moldFaqs = [
@@ -127,6 +128,7 @@ export default function MoldRemediationPage() {
         </div>
       </section>
       <FaqSection items={moldFaqs} />
+      <ServiceAreasSection />
     </main>
   )
 }

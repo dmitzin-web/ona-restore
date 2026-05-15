@@ -1,3 +1,4 @@
+import ServiceAreasSection from '@/components/ServiceAreasSection'
 import ServiceSchema from '@/components/ServiceSchema'
 import FaqSchema from '@/components/FaqSchema'
 import FaqSection from '@/components/FaqSection'
@@ -164,6 +165,7 @@ export default function RemodelingPage() {
         </div>
       </section>
       <FaqSection items={remodelingFaqs} />
+      <ServiceAreasSection />
     </main>
   )
 }

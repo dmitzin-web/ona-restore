@@ -1,3 +1,4 @@
+import ServiceAreasSection from '@/components/ServiceAreasSection'
 import FaqSchema from '@/components/FaqSchema'
 import FaqSection from '@/components/FaqSection'
 import ServiceSchema from '@/components/ServiceSchema'
@@ -133,6 +134,7 @@ export default function ReconstructionPage() {
         </div>
       </section>
       <FaqSection items={reconstructionFaqs} />
+      <ServiceAreasSection />
     </main>
   )
 }
