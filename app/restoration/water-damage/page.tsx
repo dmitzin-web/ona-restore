@@ -1,3 +1,27 @@
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
+const waterDamageFaqs = [
+  {
+    question: 'What should I do immediately after water damage?',
+    answer:
+      'If it is safe, stop the source of water, take photos before moving items, avoid disturbing contaminated materials, and request an inspection as soon as possible.',
+  },
+  {
+    question: 'Can water damage lead to mold?',
+    answer:
+      'Yes. Moisture trapped behind drywall, under flooring, inside cabinets, or in crawlspaces can contribute to mold growth if not properly addressed.',
+  },
+  {
+    question: 'Does ONA Restore help with insurance documentation?',
+    answer:
+      'ONA Restore helps document visible property damage, affected materials, and repair scope. Coverage decisions depend on the policy and insurance carrier.',
+  },
+  {
+    question: 'Do you handle reconstruction after mitigation?',
+    answer:
+      'Yes. ONA Restore can help with reconstruction work such as drywall, texture, paint, trim, flooring, cabinets, and interior repairs after mitigation.',
+  },
+]
 export default function WaterDamagePage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
