@@ -45,59 +45,96 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#080808] text-white">
       <ReviewSchema />
-      <section className="mx-auto max-w-7xl px-6 pb-24 pt-28 md:pb-32 md:pt-36">
-        <div className="max-w-5xl">
-          <p className="mb-6 text-sm uppercase tracking-[0.35em] text-neutral-500">
-            Vancouver WA · Clark County · Portland Metro
-          </p>
+      <section className="relative overflow-hidden">
+        <div className="pointer-events-none absolute left-1/2 top-0 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-white/10 blur-[140px]" />
 
-          <h1 className="text-5xl font-semibold tracking-[-0.05em] text-white md:text-8xl">
-            Property damage recovery, rebuilt with precision.
-          </h1>
+        <div className="mx-auto grid max-w-7xl gap-14 px-6 pb-24 pt-28 md:grid-cols-[1.1fr_0.9fr] md:pb-32 md:pt-36">
+          <div>
+            <p className="mb-6 text-sm uppercase tracking-[0.35em] text-neutral-500">
+              Vancouver WA · Clark County · Portland Metro
+            </p>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-neutral-400">
-            ONA Restoration provides restoration, reconstruction, remodeling, and
-            insurance-related repair documentation for homeowners across
-            Vancouver WA and the Portland metro.
-          </p>
+            <h1 className="text-5xl font-semibold tracking-[-0.06em] text-white md:text-8xl">
+              Property damage recovery, rebuilt with precision.
+            </h1>
 
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="tel:+13600000000"
-              className="rounded-full bg-white px-7 py-3.5 text-center text-sm font-medium text-black transition hover:bg-neutral-200"
-            >
-              Call Now
-            </a>
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-neutral-400">
+              Restoration, reconstruction, kitchen and bathroom remodeling,
+              and insurance-related repair documentation for homeowners across
+              Vancouver WA and Clark County.
+            </p>
 
-            <a
-              href="/contact"
-              className="rounded-full border border-white/10 px-7 py-3.5 text-center text-sm font-medium text-white transition hover:border-white/30"
-            >
-              Request Inspection
-            </a>
-          </div>
-        </div>
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="tel:+13600000000"
+                className="rounded-full bg-white px-7 py-3.5 text-center text-sm font-medium text-black transition hover:bg-neutral-200"
+              >
+                Call Now
+              </a>
 
-        <div className="mt-24 grid gap-4 md:grid-cols-3">
-          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
-            <p className="text-sm text-neutral-500">Focus</p>
-            <h2 className="mt-3 text-2xl font-medium">
-              Insurance-driven repairs
-            </h2>
+              <a
+                href="/contact"
+                className="rounded-full border border-white/10 px-7 py-3.5 text-center text-sm font-medium text-white transition hover:border-white/30"
+              >
+                Request Inspection
+              </a>
+            </div>
           </div>
 
-          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
-            <p className="text-sm text-neutral-500">Service Area</p>
-            <h2 className="mt-3 text-2xl font-medium">
-              Vancouver & Clark County
-            </h2>
+          <div className="relative">
+            <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl">
+              <div className="rounded-[1.5rem] border border-white/10 bg-black/40 p-6">
+                <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
+                  ONA Restoration
+                </p>
+
+                <h2 className="mt-5 text-3xl font-semibold tracking-[-0.04em]">
+                  Damage → Documentation → Rebuild
+                </h2>
+
+                <div className="mt-8 space-y-4">
+                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                    <p className="text-sm text-neutral-500">Emergency</p>
+                    <p className="mt-2 text-xl font-medium">Water · Fire · Smoke · Mold</p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                    <p className="text-sm text-neutral-500">Rebuild</p>
+                    <p className="mt-2 text-xl font-medium">Drywall · Flooring · Cabinets · Paint</p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                    <p className="text-sm text-neutral-500">Remodeling</p>
+                    <p className="mt-2 text-xl font-medium">Kitchen · Bathroom · Interior Upgrades</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
-            <p className="text-sm text-neutral-500">Scope</p>
-            <h2 className="mt-3 text-2xl font-medium">
-              Mitigation to rebuild
-            </h2>
+          <div className="md:col-span-2">
+            <div className="grid gap-4 md:grid-cols-3">
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+                <p className="text-sm text-neutral-500">Focus</p>
+                <h2 className="mt-3 text-2xl font-medium">
+                  Insurance-driven repairs
+                </h2>
+              </div>
+
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+                <p className="text-sm text-neutral-500">Service Area</p>
+                <h2 className="mt-3 text-2xl font-medium">
+                  Vancouver & Clark County
+                </h2>
+              </div>
+
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+                <p className="text-sm text-neutral-500">Scope</p>
+                <h2 className="mt-3 text-2xl font-medium">
+                  Restoration to remodeling
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </section>
