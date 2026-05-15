@@ -26,7 +26,7 @@ const remodelingFaqs = [
 ]
 
 export const metadata = {
-  title: 'Remodeling Services in Vancouver WA | Kitchen & Bathroom',
+  title: 'Kitchen & Bathroom Remodeling in Vancouver WA | ONA Restoration',
   description:
     'Kitchen remodeling, bathroom remodeling, reconstruction, cabinets, flooring, tile, drywall, paint, trim, and interior remodeling in Vancouver WA and Clark County.',
 }

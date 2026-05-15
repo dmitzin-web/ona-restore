@@ -25,9 +25,9 @@ const reconstructionFaqs = [
 ]
 
 export const metadata = {
-  title: 'Reconstruction Services in Vancouver WA',
+  title: 'Reconstruction Services in Vancouver WA | ONA Restoration',
   description:
-    'Reconstruction after water, fire, smoke, mold, and storm damage in Vancouver WA, Clark County, and Portland metro.',
+    'Reconstruction after water, fire, smoke, mold, and storm damage. Drywall, flooring, trim, paint, cabinets, kitchens, bathrooms, and interior rebuild work in Vancouver WA.',
 }
 
 export default function ReconstructionPage() {

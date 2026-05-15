@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Water Damage Restoration in Vancouver WA | ONA Restoration',
+  description:
+    'Water damage restoration, reconstruction, moisture-related repairs, drywall, flooring, cabinets, and insurance-related repair documentation in Vancouver WA and Clark County.',
+}
+
 import FaqSchema from '@/components/FaqSchema'
 import FaqSection from '@/components/FaqSection'
 const waterDamageFaqs = [

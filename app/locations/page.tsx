@@ -9,9 +9,9 @@ const locations = [
 ]
 
 export const metadata = {
-  title: 'Service Areas | ONA Restoration',
+  title: 'Service Areas in Clark County WA | ONA Restoration',
   description:
-    'ONA Restoration provides water damage restoration, fire and smoke damage restoration, mold remediation support, reconstruction, and remodeling across Vancouver WA and Clark County.',
+    'ONA Restoration serves Vancouver, Camas, Washougal, Battle Ground, Ridgefield, Salmon Creek, Hazel Dell, and Clark County with restoration and remodeling services.',
 }
 
 export default function LocationsPage() {

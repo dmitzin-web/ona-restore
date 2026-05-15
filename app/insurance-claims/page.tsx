@@ -24,9 +24,9 @@ const insuranceClaimFaqs = [
 ]
 
 export const metadata = {
-  title: 'Insurance Claim Help for Property Damage',
+  title: 'Insurance Claim Repair Support in Vancouver WA | ONA Restoration',
   description:
-    'Insurance claim documentation support for water, fire, smoke, mold, and reconstruction scopes in Vancouver WA and Portland metro.',
+    'Property damage repair documentation, reconstruction scope support, water damage, fire damage, mold-related repairs, and insurance-related restoration support in Vancouver WA.',
 }
 
 export default function InsuranceClaimsPage() {

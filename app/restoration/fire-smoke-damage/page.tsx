@@ -25,9 +25,9 @@ const fireSmokeFaqs = [
 ]
 
 export const metadata = {
-  title: 'Fire & Smoke Damage Restoration in Vancouver WA',
+  title: 'Fire & Smoke Damage Restoration in Vancouver WA | ONA Restoration',
   description:
-    'Fire, smoke, soot, odor, and reconstruction services in Vancouver WA, Clark County, and Portland metro. Insurance claim support available.',
+    'Fire damage restoration, smoke damage cleanup, soot, odor, reconstruction, drywall, paint, and insurance-related repair documentation in Vancouver WA and Clark County.',
 }
 
 export default function FireSmokeDamagePage() {

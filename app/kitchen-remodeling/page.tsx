@@ -27,7 +27,7 @@ const kitchenFaqs = [
 export const metadata = {
   title: 'Kitchen Remodeling in Vancouver WA | ONA Restoration',
   description:
-    'Kitchen remodeling, cabinet replacement, flooring, drywall, paint, trim, and reconstruction services in Vancouver WA and Clark County.',
+    'Kitchen remodeling, cabinet replacement, flooring, drywall, paint, trim, finish carpentry, and kitchen reconstruction after leaks or property damage in Vancouver WA.',
 }
 
 export default function KitchenRemodelingPage() {

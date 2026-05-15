@@ -27,7 +27,7 @@ const bathroomFaqs = [
 export const metadata = {
   title: 'Bathroom Remodeling in Vancouver WA | ONA Restoration',
   description:
-    'Bathroom remodeling, vanity replacement, tile, flooring, drywall, paint, trim, and reconstruction services in Vancouver WA and Clark County.',
+    'Bathroom remodeling, vanity replacement, tile, flooring, drywall, paint, trim, and bathroom reconstruction after leaks or water damage in Vancouver WA.',
 }
 
 export default function BathroomRemodelingPage() {

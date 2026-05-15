@@ -24,9 +24,9 @@ const moldFaqs = [
 ]
 
 export const metadata = {
-  title: 'Mold Remediation in Vancouver WA',
+  title: 'Mold Remediation Support in Vancouver WA | ONA Restoration',
   description:
-    'Mold remediation, moisture investigation, containment, removal planning, and reconstruction support in Vancouver WA and Clark County.',
+    'Mold remediation support, moisture-related repair planning, containment coordination, reconstruction, drywall, flooring, and finish repairs in Vancouver WA and Clark County.',
 }
 
 export default function MoldRemediationPage() {
