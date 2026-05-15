@@ -12,7 +12,14 @@ export default function ContactPage() {
       phone: String(formData.get('phone')),
       email: String(formData.get('email')),
       damage_type: String(formData.get('damage_type')),
-      message: String(formData.get('message')),
+      message: [
+        `Property Address: ${String(formData.get('property_address'))}`,
+        `Urgency: ${String(formData.get('urgency'))}`,
+        `Insurance Company: ${String(formData.get('insurance_company'))}`,
+        `Claim Number: ${String(formData.get('claim_number'))}`,
+        '',
+        String(formData.get('message')),
+      ].join('\n'),
     }
 
     const { error } = await supabase.from('leads').insert(lead)
@@ -38,9 +45,8 @@ export default function ContactPage() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-neutral-400">
-            Tell us what happened, what type of damage you are dealing with,
-            and whether insurance is involved. We will review your request and
-            contact you about the next step.
+            Tell us what happened, where the damage is, whether insurance is
+            involved, and how urgent the situation is.
           </p>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2">
@@ -54,7 +60,7 @@ export default function ContactPage() {
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
               <p className="text-sm text-neutral-500">Project Types</p>
               <h2 className="mt-3 text-2xl font-medium">
-                Water · Fire · Mold · Rebuild
+                Water · Fire · Mold · Remodel
               </h2>
             </div>
           </div>
@@ -75,44 +81,34 @@ export default function ContactPage() {
 
         <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-6 md:p-8">
           <form action={handleSubmit} className="space-y-5">
-            <input
-              name="name"
-              required
-              type="text"
-              placeholder="Name"
-              className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
-            />
+            <input name="name" required type="text" placeholder="Name" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
+            <input name="phone" required type="tel" placeholder="Phone" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
+            <input name="email" type="email" placeholder="Email" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
+            <input name="property_address" type="text" placeholder="Property address" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
 
-            <input
-              name="phone"
-              required
-              type="tel"
-              placeholder="Phone"
-              className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
-            />
-
-            <input
-              name="email"
-              type="email"
-              placeholder="Email"
-              className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
-            />
-
-            <select
-              name="damage_type"
-              className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
-            >
+            <select name="damage_type" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none">
               <option value="Water Damage">Water Damage</option>
               <option value="Fire & Smoke Damage">Fire & Smoke Damage</option>
               <option value="Mold Remediation">Mold Remediation</option>
               <option value="Reconstruction">Reconstruction</option>
-              <option value="Remodeling">Remodeling</option>
+              <option value="Kitchen Remodeling">Kitchen Remodeling</option>
+              <option value="Bathroom Remodeling">Bathroom Remodeling</option>
               <option value="Insurance Claim Support">Insurance Claim Support</option>
             </select>
 
+            <select name="urgency" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none">
+              <option value="Emergency / ASAP">Emergency / ASAP</option>
+              <option value="This week">This week</option>
+              <option value="Planning project">Planning project</option>
+              <option value="Insurance estimate review">Insurance estimate review</option>
+            </select>
+
+            <input name="insurance_company" type="text" placeholder="Insurance company, if applicable" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
+            <input name="claim_number" type="text" placeholder="Claim number, if applicable" className="w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none" />
+
             <textarea
               name="message"
-              placeholder="Tell us what happened, where the damage is, and whether insurance is involved."
+              placeholder="Tell us what happened, where the damage is, and what you need help with."
               className="min-h-44 w-full rounded-2xl border border-white/10 bg-black/30 px-5 py-4 outline-none"
             />
 
