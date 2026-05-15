@@ -32,5 +32,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/insurance-claims`,
       lastModified: new Date(),
     },
+    {
+    url: `${baseUrl}/camas-wa`,
+  lastModified: new Date(),
+},
   ]
 }
