@@ -1,0 +1,60 @@
+export default function ContactPage() {
+  return (
+    <main className="min-h-screen bg-neutral-950 px-6 py-24 text-white">
+      <div className="mx-auto max-w-2xl">
+        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
+          ONA Restore
+        </p>
+
+        <h1 className="text-5xl font-semibold tracking-tight">
+          Request an Inspection
+        </h1>
+
+        <p className="mt-6 text-lg leading-8 text-neutral-300">
+          Tell us about your project or property damage and we will contact you.
+        </p>
+
+        <form className="mt-12 space-y-6">
+          <input
+            type="text"
+            placeholder="Name"
+            className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none"
+          />
+
+          <input
+            type="tel"
+            placeholder="Phone"
+            className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none"
+          />
+
+          <input
+            type="email"
+            placeholder="Email"
+            className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none"
+          />
+
+          <select
+            className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none"
+          >
+            <option>Water Damage</option>
+            <option>Fire & Smoke Damage</option>
+            <option>Mold Remediation</option>
+            <option>Reconstruction</option>
+            <option>Remodeling</option>
+          </select>
+
+          <textarea
+            placeholder="Tell us what happened"
+            className="min-h-40 w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none"
+          />
+
+          <button
+            className="w-full rounded-full bg-white px-8 py-4 font-medium text-black"
+          >
+            Submit Request
+          </button>
+        </form>
+      </div>
+    </main>
+  )
+}
