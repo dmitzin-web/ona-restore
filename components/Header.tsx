@@ -13,47 +13,49 @@ export default function Header() {
             Home
           </Link>
 
-          <div className="group relative">
+          <div className="group relative py-3">
             <Link href="/restoration" className="flex items-center gap-1 hover:text-white">
               Restoration
               <span className="text-xs">▾</span>
             </Link>
 
-            <div className="invisible absolute left-0 top-full z-50 mt-4 w-72 rounded-2xl border border-white/10 bg-neutral-950 p-3 opacity-0 shadow-2xl transition group-hover:visible group-hover:opacity-100">
-              <Link
-                href="/restoration/water-damage"
-                className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-              >
-                Water Damage Restoration
-              </Link>
+            <div className="invisible absolute left-0 top-full z-50 w-72 opacity-0 transition group-hover:visible group-hover:opacity-100">
+              <div className="rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-2xl">
+                <Link
+                  href="/restoration/water-damage"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Water Damage Restoration
+                </Link>
 
-              <Link
-                href="/restoration/fire-smoke-damage"
-                className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-              >
-                Fire & Smoke Damage
-              </Link>
+                <Link
+                  href="/restoration/fire-smoke-damage"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Fire & Smoke Damage
+                </Link>
 
-              <Link
-                href="/restoration/mold-remediation"
-                className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-              >
-                Mold Remediation
-              </Link>
+                <Link
+                  href="/restoration/mold-remediation"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Mold Remediation
+                </Link>
 
-              <Link
-                href="/restoration/reconstruction"
-                className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-              >
-                Reconstruction
-              </Link>
+                <Link
+                  href="/restoration/reconstruction"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Reconstruction
+                </Link>
 
-              <Link
-                href="/locations"
-                className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-              >
-                Service Areas
-              </Link>
+                <Link
+                  href="/locations"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Service Areas
+                </Link>
+              </div>
             </div>
           </div>
 
