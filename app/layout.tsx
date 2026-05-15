@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
@@ -35,10 +36,11 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-neutral-950 text-white">
-        <Header />
-        {children}
-      </body>
+<body className="min-h-full bg-neutral-950 text-white">
+  <LocalBusinessSchema />
+  <Header />
+  {children}
+</body>
     </html>
   )
 }
