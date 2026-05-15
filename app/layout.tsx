@@ -1,3 +1,4 @@
+import StickyMobileCTA from '@/components/StickyMobileCTA'
 import Header from '@/components/Header'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import type { Metadata } from 'next'
@@ -40,6 +41,7 @@ export default function RootLayout({
   <LocalBusinessSchema />
   <Header />
   {children}
+  <StickyMobileCTA />
 </body>
     </html>
   )
