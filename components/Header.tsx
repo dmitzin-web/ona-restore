@@ -63,7 +63,7 @@ export default function Header() {
             </div>
           </div>
 
-          <Link href="/insurance-claims" className="hover:text-white">
+          <Link href="/blog" className="hover:text-white">
             Claims
           </Link>
 
