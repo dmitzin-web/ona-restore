@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import EmergencyBanner from '@/components/EmergencyBanner'
 import StickyMobileCTA from '@/components/StickyMobileCTA'
 import Header from '@/components/Header'
@@ -43,7 +44,8 @@ export default function RootLayout({
   <EmergencyBanner />
   <Header />
   {children}
-  <StickyMobileCTA />
+  <Footer />
+        <StickyMobileCTA />
 </body>
     </html>
   )
