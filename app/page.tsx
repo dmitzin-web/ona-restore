@@ -1,7 +1,6 @@
 import TrustSection from '@/components/TrustSection'
 import ProcessSection from '@/components/ProcessSection'
 import LocalTrustSection from '@/components/LocalTrustSection'
-import ReviewSchema from '@/components/ReviewSchema'
 import ReviewsSection from '@/components/ReviewsSection'
 import BeforeAfterSection from '@/components/BeforeAfterSection'
 export const metadata = {
@@ -46,7 +45,6 @@ const services = [
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#080808] text-white">
-      <ReviewSchema />
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-white/10 blur-[140px]" />
 
