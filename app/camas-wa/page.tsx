@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Restoration Company in Camas WA',
+  title: 'Restoration Company in Camas WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Camas WA and Clark County.',
+    'Water damage, fire and smoke damage, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling services in Camas WA.',
 }
 
 export default function CamasPage() {

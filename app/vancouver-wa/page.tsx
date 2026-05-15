@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Restoration Company in Vancouver WA',
+  title: 'Restoration Company in Vancouver WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Vancouver WA and Clark County.',
+    'Water damage restoration, fire damage restoration, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling in Vancouver WA.',
 }
 
 export default function VancouverPage() {

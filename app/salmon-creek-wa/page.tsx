@@ -1,9 +1,9 @@
 import LocationPage from '@/components/LocationPage'
 
 export const metadata = {
-  title: 'Restoration Company in Salmon Creek WA',
+  title: 'Restoration Company in Salmon Creek WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Salmon Creek WA and Clark County.',
+    'Water damage, fire damage, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling in Salmon Creek WA.',
 }
 
 export default function SalmonCreekPage() {

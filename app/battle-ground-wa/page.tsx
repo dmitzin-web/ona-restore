@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Restoration Company in Battle Ground WA',
+  title: 'Restoration Company in Battle Ground WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Battle Ground WA and Clark County.',
+    'Water damage, fire and smoke damage, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling in Battle Ground WA.',
 }
 
 export default function BattleGroundPage() {

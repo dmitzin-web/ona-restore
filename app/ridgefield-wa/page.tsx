@@ -1,9 +1,9 @@
 import LocationPage from '@/components/LocationPage'
 
 export const metadata = {
-  title: 'Restoration Company in Ridgefield WA',
+  title: 'Restoration Company in Ridgefield WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Ridgefield WA and Clark County.',
+    'Water damage restoration, fire damage restoration, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling in Ridgefield WA.',
 }
 
 export default function RidgefieldPage() {

@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Restoration Company in Washougal WA',
+  title: 'Restoration Company in Washougal WA | ONA Restoration',
   description:
-    'Water damage, fire damage, mold remediation, reconstruction, and remodeling services in Washougal WA and Clark County.',
+    'Water damage restoration, fire damage restoration, mold remediation support, reconstruction, kitchen remodeling, and bathroom remodeling in Washougal WA.',
 }
 
 export default function WashougalPage() {
