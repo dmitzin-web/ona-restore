@@ -1,4 +1,29 @@
+import FaqSection from '@/components/FaqSection'
+import FaqSchema from '@/components/FaqSchema'
 import ServiceSchema from '@/components/ServiceSchema'
+const kitchenFaqs = [
+  {
+    question: 'How much does kitchen remodeling cost in Vancouver WA?',
+    answer:
+      'Kitchen remodeling cost depends on the project size, cabinets, flooring, drywall, paint, trim, finish selections, and whether the work is part of property damage reconstruction.',
+  },
+  {
+    question: 'Can ONA Restoration rebuild a kitchen after water damage?',
+    answer:
+      'Yes. ONA Restoration can help with kitchen reconstruction after water damage, including drywall, flooring, trim, paint, cabinets, and interior finishes.',
+  },
+  {
+    question: 'Do you handle cabinets and flooring?',
+    answer:
+      'Yes. Kitchen remodeling and reconstruction may include cabinet replacement, flooring, baseboards, casing, drywall repair, painting, and finish carpentry.',
+  },
+  {
+    question: 'Can kitchen remodeling be combined with an insurance repair?',
+    answer:
+      'Yes. Some homeowners choose to upgrade finishes during the reconstruction phase. Insurance coverage depends on the policy and carrier.',
+  },
+]
+
 export const metadata = {
   title: 'Kitchen Remodeling in Vancouver WA | ONA Restoration',
   description:
@@ -8,6 +33,7 @@ export const metadata = {
 export default function KitchenRemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={kitchenFaqs} />
       <ServiceSchema
         name="Kitchen Remodeling"
         description="Kitchen remodeling, cabinet replacement, flooring, drywall, paint, trim, finish carpentry, and reconstruction services in Vancouver WA and Clark County."
@@ -107,6 +133,7 @@ export default function KitchenRemodelingPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={kitchenFaqs} />
     </main>
   )
 }

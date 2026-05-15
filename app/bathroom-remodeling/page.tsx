@@ -1,4 +1,29 @@
+import FaqSection from '@/components/FaqSection'
+import FaqSchema from '@/components/FaqSchema'
 import ServiceSchema from '@/components/ServiceSchema'
+const bathroomFaqs = [
+  {
+    question: 'How much does bathroom remodeling cost in Vancouver WA?',
+    answer:
+      'Bathroom remodeling cost depends on the size of the bathroom, vanity, flooring, tile, drywall, paint, trim, finish selections, and whether the work is related to property damage.',
+  },
+  {
+    question: 'Can ONA Restoration repair a bathroom after a leak?',
+    answer:
+      'Yes. ONA Restoration can help with bathroom reconstruction after leaks, including drywall, flooring, trim, paint, vanity replacement, and finish repairs.',
+  },
+  {
+    question: 'Do you handle tile and vanity replacement?',
+    answer:
+      'Bathroom remodeling may include vanity replacement, flooring, tile-related repairs, drywall, paint, trim, and moisture-related reconstruction.',
+  },
+  {
+    question: 'Can bathroom remodeling be part of an insurance claim?',
+    answer:
+      'Sometimes reconstruction after covered damage may involve bathroom repairs. ONA Restoration can document visible repair needs, but coverage depends on the policy and carrier.',
+  },
+]
+
 export const metadata = {
   title: 'Bathroom Remodeling in Vancouver WA | ONA Restoration',
   description:
@@ -8,6 +33,7 @@ export const metadata = {
 export default function BathroomRemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={bathroomFaqs} />
       <ServiceSchema
         name="Bathroom Remodeling"
         description="Bathroom remodeling, vanity replacement, tile, flooring, drywall, paint, trim, moisture-related repairs, and reconstruction services in Vancouver WA and Clark County."
@@ -107,6 +133,7 @@ export default function BathroomRemodelingPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={bathroomFaqs} />
     </main>
   )
 }
