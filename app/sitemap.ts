@@ -16,5 +16,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/restoration/water-damage`,
       lastModified: new Date(),
     },
+    {
+      url: `${baseUrl}/restoration/fire-smoke-damage`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/restoration/mold-remediation`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/restoration/reconstruction`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/insurance-claims`,
+      lastModified: new Date(),
+    },
   ]
 }

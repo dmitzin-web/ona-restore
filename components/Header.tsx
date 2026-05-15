@@ -8,19 +8,35 @@ export default function Header() {
           ONA Restore
         </Link>
 
-        <nav className="hidden items-center gap-8 text-sm text-neutral-300 md:flex">
-          <Link href="/" className="hover:text-white">
-            Home
-          </Link>
+<nav className="hidden items-center gap-8 text-sm text-neutral-300 md:flex">
+  <Link href="/" className="hover:text-white">
+    Home
+  </Link>
 
-          <Link href="/restoration/water-damage" className="hover:text-white">
-            Water Damage
-          </Link>
+  <Link href="/restoration/water-damage" className="hover:text-white">
+    Water
+  </Link>
 
-          <Link href="/contact" className="hover:text-white">
-            Contact
-          </Link>
-        </nav>
+  <Link href="/restoration/fire-smoke-damage" className="hover:text-white">
+    Fire
+  </Link>
+
+  <Link href="/restoration/mold-remediation" className="hover:text-white">
+    Mold
+  </Link>
+
+  <Link href="/restoration/reconstruction" className="hover:text-white">
+    Rebuild
+  </Link>
+
+  <Link href="/insurance-claims" className="hover:text-white">
+    Claims
+  </Link>
+
+  <Link href="/contact" className="hover:text-white">
+    Contact
+  </Link>
+</nav>
 
         <a
           href="tel:+13600000000"
