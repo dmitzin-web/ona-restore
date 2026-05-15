@@ -2,7 +2,7 @@ export default function LocalBusinessSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
-    name: 'ONA Restore',
+    name: 'ONA Restoration',
     url: 'https://onarestore.com',
     telephone: '+1-360-000-0000',
     description:

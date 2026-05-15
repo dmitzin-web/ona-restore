@@ -17,7 +17,7 @@ export default function WashougalPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          ONA Restore provides water damage restoration, fire and smoke damage
+          ONA Restoration provides water damage restoration, fire and smoke damage
           support, mold remediation planning, reconstruction, and remodeling
           services for homeowners in Washougal and surrounding Clark County areas.
         </p>
@@ -43,7 +43,7 @@ export default function WashougalPage() {
             <p className="mt-4 leading-8 text-neutral-300">
               Washougal homes can face storm-related moisture, roof leaks,
               plumbing failures, crawlspace water, smoke exposure, and interior
-              reconstruction needs. ONA Restore helps organize the restoration
+              reconstruction needs. ONA Restoration helps organize the restoration
               and repair process.
             </p>
           </div>

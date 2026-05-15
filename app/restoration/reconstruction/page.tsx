@@ -18,7 +18,7 @@ export default function ReconstructionPage() {
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
           After mitigation is complete, damaged materials still need to be
-          rebuilt correctly. ONA Restore helps with drywall, texture, paint,
+          rebuilt correctly. ONA Restoration helps with drywall, texture, paint,
           trim, flooring, cabinets, and remodeling work after covered losses.
         </p>
 

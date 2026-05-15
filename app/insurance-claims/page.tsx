@@ -17,7 +17,7 @@ export default function InsuranceClaimsPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          Property damage claims can be stressful and confusing. ONA Restore
+          Property damage claims can be stressful and confusing. ONA Restoration
           helps document visible damage, repair needs, affected materials, and
           reconstruction scope so homeowners have a clearer path forward.
         </p>
@@ -32,7 +32,7 @@ export default function InsuranceClaimsPage() {
         </div>
 
         <p className="mt-6 max-w-3xl text-sm leading-6 text-neutral-500">
-          ONA Restore is not a public adjuster and does not make coverage
+          ONA Restoration is not a public adjuster and does not make coverage
           determinations. Coverage depends on your insurance policy and carrier.
         </p>
       </section>

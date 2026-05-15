@@ -54,7 +54,7 @@ export default function LocationPage({
             </h2>
 
             <p className="mt-4 leading-8 text-neutral-300">
-              ONA Restore helps homeowners with water damage, fire and smoke
+              ONA Restoration helps homeowners with water damage, fire and smoke
               damage, mold-related repair planning, reconstruction, and
               remodeling after property damage.
             </p>

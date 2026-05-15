@@ -5,7 +5,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-neutral-950/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <Link href="/" className="text-lg font-semibold tracking-tight text-white">
-          ONA Restore
+          ONA Restoration
         </Link>
 
 <nav className="hidden items-center gap-8 text-sm text-neutral-300 md:flex">

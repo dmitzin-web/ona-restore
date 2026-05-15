@@ -53,7 +53,7 @@ export default function FireSmokeDamagePage() {
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
             <h2 className="text-2xl font-semibold">Reconstruction</h2>
             <p className="mt-4 text-neutral-300">
-              After mitigation, ONA Restore can help rebuild affected drywall,
+              After mitigation, ONA Restoration can help rebuild affected drywall,
               trim, flooring, cabinets, paint, and structural finishes.
             </p>
           </div>

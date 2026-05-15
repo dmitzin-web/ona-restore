@@ -17,7 +17,7 @@ export default function BattleGroundPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          ONA Restore provides water damage restoration, fire and smoke damage
+          ONA Restoration provides water damage restoration, fire and smoke damage
           support, mold remediation planning, reconstruction, and remodeling
           services for homeowners in Battle Ground and surrounding Clark County areas.
         </p>
@@ -43,7 +43,7 @@ export default function BattleGroundPage() {
             <p className="mt-4 leading-8 text-neutral-300">
               Battle Ground properties can experience plumbing leaks, storm
               intrusion, crawlspace moisture, smoke damage, and reconstruction
-              needs. ONA Restore helps homeowners move from inspection to repair.
+              needs. ONA Restoration helps homeowners move from inspection to repair.
             </p>
           </div>
 
@@ -53,7 +53,7 @@ export default function BattleGroundPage() {
             </h2>
 
             <p className="mt-4 leading-8 text-neutral-300">
-              After mitigation or material removal, ONA Restore can help rebuild
+              After mitigation or material removal, ONA Restoration can help rebuild
               drywall, trim, flooring, paint, cabinets, and interior finishes.
             </p>
           </div>

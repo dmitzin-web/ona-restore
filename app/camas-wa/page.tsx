@@ -17,7 +17,7 @@ export default function CamasPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          ONA Restore provides water damage restoration, fire and smoke damage
+          ONA Restoration provides water damage restoration, fire and smoke damage
           support, mold remediation planning, reconstruction, and remodeling
           services for homeowners in Camas and surrounding Clark County areas.
         </p>
@@ -49,7 +49,7 @@ export default function CamasPage() {
             <p className="mt-4 leading-8 text-neutral-300">
               Homes in Camas can face water intrusion, plumbing leaks, storm
               damage, smoke exposure, mold concerns, and reconstruction needs.
-              ONA Restore helps organize the repair process from inspection to rebuild.
+              ONA Restoration helps organize the repair process from inspection to rebuild.
             </p>
           </div>
 

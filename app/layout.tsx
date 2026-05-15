@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'ONA Restore | Restoration & Remodeling in Vancouver WA',
-    template: '%s | ONA Restore',
+    default: 'ONA Restoration | Restoration & Remodeling in Vancouver WA',
+    template: '%s | ONA Restoration',
   },
 
   description:

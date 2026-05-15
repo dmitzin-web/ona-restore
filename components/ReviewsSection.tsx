@@ -7,7 +7,7 @@ const reviews = [
   {
     name: 'Felicity T.',
     text:
-      'ONA Restore helped us after a major leak and mold issue. The process felt much more structured and transparent than we expected.',
+      'ONA Restoration helped us after a major leak and mold issue. The process felt much more structured and transparent than we expected.',
   },
   {
     name: 'Benjamin K.',

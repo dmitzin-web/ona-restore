@@ -29,7 +29,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-neutral-950 px-6 py-24 text-white">
       <div className="mx-auto max-w-2xl">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-400">
-          ONA Restore
+          ONA Restoration
         </p>
 
         <h1 className="text-5xl font-semibold tracking-tight">

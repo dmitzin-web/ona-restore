@@ -17,7 +17,7 @@ export default function MoldRemediationPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          Mold problems usually start with moisture. ONA Restore helps identify
+          Mold problems usually start with moisture. ONA Restoration helps identify
           affected areas, document visible conditions, coordinate remediation
           planning, and restore damaged building materials after removal.
         </p>

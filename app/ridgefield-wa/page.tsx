@@ -11,7 +11,7 @@ export default function RidgefieldPage() {
     <LocationPage
       city="Ridgefield"
       state="WA"
-      intro="ONA Restore provides water damage restoration, fire and smoke damage support, mold remediation planning, reconstruction, and remodeling services for homeowners in Ridgefield and surrounding Clark County areas."
+      intro="ONA Restoration provides water damage restoration, fire and smoke damage support, mold remediation planning, reconstruction, and remodeling services for homeowners in Ridgefield and surrounding Clark County areas."
       nearbyAreas={[
         { label: 'Vancouver WA', href: '/vancouver-wa' },
         { label: 'Battle Ground WA', href: '/battle-ground-wa' },

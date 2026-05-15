@@ -17,7 +17,7 @@ export default function VancouverPage() {
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-300">
-          ONA Restore provides water damage restoration, fire and smoke damage,
+          ONA Restoration provides water damage restoration, fire and smoke damage,
           mold remediation, reconstruction, and remodeling services across
           Vancouver WA and Clark County.
         </p>
@@ -59,7 +59,7 @@ export default function VancouverPage() {
             </h2>
 
             <p className="mt-4 leading-8 text-neutral-300">
-              After mitigation, ONA Restore can help rebuild affected drywall,
+              After mitigation, ONA Restoration can help rebuild affected drywall,
               flooring, trim, cabinets, paint, and interior finishes throughout
               the reconstruction phase.
             </p>

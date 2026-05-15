@@ -12,14 +12,14 @@ const waterDamageFaqs = [
       'Yes. Moisture trapped behind drywall, under flooring, inside cabinets, or in crawlspaces can contribute to mold growth if not properly addressed.',
   },
   {
-    question: 'Does ONA Restore help with insurance documentation?',
+    question: 'Does ONA Restoration help with insurance documentation?',
     answer:
-      'ONA Restore helps document visible property damage, affected materials, and repair scope. Coverage decisions depend on the policy and insurance carrier.',
+      'ONA Restoration helps document visible property damage, affected materials, and repair scope. Coverage decisions depend on the policy and insurance carrier.',
   },
   {
     question: 'Do you handle reconstruction after mitigation?',
     answer:
-      'Yes. ONA Restore can help with reconstruction work such as drywall, texture, paint, trim, flooring, cabinets, and interior repairs after mitigation.',
+      'Yes. ONA Restoration can help with reconstruction work such as drywall, texture, paint, trim, flooring, cabinets, and interior repairs after mitigation.',
   },
 ]
 export default function WaterDamagePage() {

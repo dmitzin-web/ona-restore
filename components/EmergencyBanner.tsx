@@ -7,7 +7,7 @@ export default function EmergencyBanner() {
         </span>
 
         <a href="tel:+13600000000" className="underline underline-offset-4">
-          Call ONA Restore
+          Call ONA Restoration
         </a>
       </div>
     </div>
