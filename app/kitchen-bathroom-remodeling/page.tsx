@@ -1,40 +1,34 @@
 export const metadata = {
-  title: 'Remodeling Remodeling in Vancouver WA | ONA Restoration',
+  title: 'Remodeling Services in Vancouver WA | Kitchen & Bathroom',
   description:
-    'Kitchen remodeling, bathroom remodeling, reconstruction, cabinets, flooring, drywall, tile, paint, and interior renovation services in Vancouver WA and Clark County.',
+    'Kitchen remodeling, bathroom remodeling, reconstruction, cabinets, flooring, tile, drywall, paint, trim, and interior remodeling in Vancouver WA and Clark County.',
 }
 
-export default function KitchenBathroomPage() {
+export default function RemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-neutral-500">
-          Remodeling Remodeling
+          Remodeling Services
         </p>
 
         <h1 className="max-w-5xl text-5xl font-semibold tracking-[-0.05em] md:text-7xl">
-          Kitchen and bathroom remodeling services in Vancouver, WA.
+          Kitchen and bathroom remodeling in Vancouver, WA.
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-neutral-400">
-          ONA Restoration handles kitchen remodeling, bathroom remodeling,
-          interior reconstruction, cabinets, flooring, tile, drywall, paint,
-          trim, and finish upgrades for homeowners across Vancouver WA and
+          ONA Restoration helps homeowners with kitchen remodeling, bathroom
+          remodeling, interior reconstruction, cabinets, flooring, tile,
+          drywall, paint, trim, and finish upgrades across Vancouver WA and
           Clark County.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a
-            href="tel:+13600000000"
-            className="rounded-full bg-white px-8 py-4 text-center font-medium text-black"
-          >
+          <a href="tel:+13600000000" className="rounded-full bg-white px-8 py-4 text-center font-medium text-black">
             Call Now
           </a>
 
-          <a
-            href="/contact"
-            className="rounded-full border border-white/15 px-8 py-4 text-center font-medium"
-          >
+          <a href="/contact" className="rounded-full border border-white/15 px-8 py-4 text-center font-medium">
             Request Estimate
           </a>
         </div>
@@ -42,29 +36,43 @@ export default function KitchenBathroomPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-24">
         <div className="grid gap-4 md:grid-cols-2">
-          <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-8">
+          <a
+            href="/kitchen-remodeling"
+            className="group rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 transition hover:border-white/25 hover:bg-white/[0.06]"
+          >
             <h2 className="text-3xl font-semibold">
               Kitchen Remodeling
             </h2>
 
             <p className="mt-5 leading-8 text-neutral-400">
-              Cabinets, countertops coordination, flooring, drywall, paint,
-              trim, layout repairs, finish upgrades, and reconstruction after
-              water or fire-related damage.
+              Cabinet replacement, flooring, drywall, paint, trim, finish
+              carpentry, kitchen rebuilds after water damage, and planned
+              kitchen upgrades.
             </p>
-          </div>
 
-          <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-8">
+            <div className="mt-8 text-sm text-neutral-500 group-hover:text-white">
+              View kitchen remodeling →
+            </div>
+          </a>
+
+          <a
+            href="/bathroom-remodeling"
+            className="group rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 transition hover:border-white/25 hover:bg-white/[0.06]"
+          >
             <h2 className="text-3xl font-semibold">
               Bathroom Remodeling
             </h2>
 
             <p className="mt-5 leading-8 text-neutral-400">
               Vanity replacement, tile, flooring, drywall, paint, trim,
-              moisture-related repairs, and bathroom reconstruction after
-              leaks or property damage.
+              moisture-related bathroom repairs, and bathroom reconstruction
+              after leaks.
             </p>
-          </div>
+
+            <div className="mt-8 text-sm text-neutral-500 group-hover:text-white">
+              View bathroom remodeling →
+            </div>
+          </a>
         </div>
 
         <div className="mt-20 max-w-4xl space-y-14">
@@ -76,16 +84,30 @@ export default function KitchenBathroomPage() {
             <ul className="mt-5 list-disc space-y-3 pl-6 leading-8 text-neutral-300">
               <li>Kitchen remodeling in Vancouver WA</li>
               <li>Bathroom remodeling in Vancouver WA</li>
-              <li>Cabinet replacement and finish carpentry</li>
-              <li>Flooring, trim, drywall, texture, and paint</li>
-              <li>Tile, vanity, and interior finish repairs</li>
-              <li>Insurance-related reconstruction and upgrades</li>
+              <li>Cabinets, vanities, flooring, tile, drywall, and paint</li>
+              <li>Trim, baseboards, casing, and finish carpentry</li>
+              <li>Reconstruction after water, fire, smoke, or mold-related damage</li>
+              <li>Interior upgrades during insurance-related rebuild projects</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-3xl font-semibold">
-              Related restoration services
+              Restoration-related remodeling
+            </h2>
+
+            <p className="mt-5 leading-8 text-neutral-300">
+              Many remodeling projects begin after property damage. A kitchen
+              leak, bathroom overflow, fire event, smoke contamination, or mold
+              remediation project can lead to reconstruction and finish upgrades.
+              ONA Restoration helps connect the restoration phase with the
+              remodeling and rebuild phase.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-semibold">
+              Related services
             </h2>
 
             <div className="mt-5 flex flex-wrap gap-3">
