@@ -1,3 +1,4 @@
+import ReviewSchema from '@/components/ReviewSchema'
 import ReviewsSection from '@/components/ReviewsSection'
 import BeforeAfterSection from '@/components/BeforeAfterSection'
 export const metadata = {
@@ -32,6 +33,7 @@ const services = [
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#080808] text-white">
+      <ReviewSchema />
       <section className="mx-auto max-w-7xl px-6 pb-24 pt-28 md:pb-32 md:pt-36">
         <div className="max-w-5xl">
           <p className="mb-6 text-sm uppercase tracking-[0.35em] text-neutral-500">
