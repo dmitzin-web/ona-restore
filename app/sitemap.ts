@@ -41,6 +41,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: `${baseUrl}/kitchen-bathroom-remodeling`,
+      lastModified: new Date(),
+    },
+    {
       url: `${baseUrl}/vancouver-wa`,
       lastModified: new Date(),
     },
