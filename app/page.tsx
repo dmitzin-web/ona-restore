@@ -29,6 +29,16 @@ const services = [
     href: '/restoration/reconstruction',
     text: 'Drywall, flooring, trim, paint, cabinets, and interior rebuild after mitigation.',
   },
+  {
+    title: 'Kitchen Remodeling',
+    href: '/kitchen-remodeling',
+    text: 'Cabinets, flooring, drywall, paint, trim, and kitchen rebuilds after leaks or upgrades.',
+  },
+  {
+    title: 'Bathroom Remodeling',
+    href: '/bathroom-remodeling',
+    text: 'Vanities, tile, flooring, drywall, paint, trim, and bathroom repairs after water damage.',
+  },
 ]
 
 export default function HomePage() {
@@ -104,7 +114,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="mt-16 grid gap-4 md:grid-cols-2">
+          <div className="mt-16 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {services.map((service) => (
               <a
                 key={service.href}
