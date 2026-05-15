@@ -15,6 +15,18 @@ const services = [
     label: 'Reconstruction',
     href: '/restoration/reconstruction',
   },
+  {
+    label: 'Remodeling',
+    href: '/kitchen-bathroom-remodeling',
+  },
+  {
+    label: 'Kitchen Remodeling',
+    href: '/kitchen-remodeling',
+  },
+  {
+    label: 'Bathroom Remodeling',
+    href: '/bathroom-remodeling',
+  },
 ]
 
 const locations = [
