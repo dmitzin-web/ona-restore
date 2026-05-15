@@ -12,6 +12,7 @@ export default function SalmonCreekPage() {
       city="Salmon Creek"
       state="WA"
       intro="ONA Restoration provides water damage restoration, fire and smoke damage support, mold remediation planning, reconstruction, and remodeling services for homeowners in Salmon Creek and nearby Vancouver WA communities."
+      localNote="Salmon Creek homeowners often need fast help with plumbing leaks, bathroom overflows, roof-related moisture, flooring damage, and interior repairs tied to Vancouver-area homes."
       nearbyAreas={[
         { label: 'Vancouver WA', href: '/vancouver-wa' },
         { label: 'Hazel Dell WA', href: '/hazel-dell-wa' },

@@ -12,6 +12,7 @@ export default function HazelDellPage() {
       city="Hazel Dell"
       state="WA"
       intro="ONA Restoration provides water damage restoration, fire and smoke damage support, mold remediation planning, reconstruction, and remodeling services for homeowners in Hazel Dell and the Vancouver WA area."
+      localNote="Hazel Dell properties often include older homes, remodels, plumbing updates, crawlspace concerns, and interior repairs where clear scope documentation helps the project move forward."
       nearbyAreas={[
         { label: 'Vancouver WA', href: '/vancouver-wa' },
         { label: 'Salmon Creek WA', href: '/salmon-creek-wa' },
