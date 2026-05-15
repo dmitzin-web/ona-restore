@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://ona-restore.vercel.app'
+  const baseUrl = 'https://onarestore.com'
 
   return {
     rules: {

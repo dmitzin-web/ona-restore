@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     'Water damage restoration, reconstruction, remodeling, and emergency property restoration services in Vancouver WA and Portland metro.',
 
-  metadataBase: new URL('https://ona-restore.vercel.app'),
+  metadataBase: new URL('https://onarestore.com'),
 }
 
 export default function RootLayout({
