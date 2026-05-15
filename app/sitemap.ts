@@ -33,28 +33,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-    url: `${baseUrl}/camas-wa`,
-  lastModified: new Date(),
-},
-{
-  url: `${baseUrl}/washougal-wa`,
-  lastModified: new Date(),
-},
-{
-  url: `${baseUrl}/battle-ground-wa`,
-  lastModified: new Date(),
-},
-{
-  url: `${baseUrl}/ridgefield-wa`,
-  lastModified: new Date(),
-},
-{
-  url: `${baseUrl}/salmon-creek-wa`,
-  lastModified: new Date(),
-},
-{
-  url: `${baseUrl}/hazel-dell-wa`,
-  lastModified: new Date(),
-},
+      url: `${baseUrl}/vancouver-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/camas-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/washougal-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/battle-ground-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/ridgefield-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/salmon-creek-wa`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/hazel-dell-wa`,
+      lastModified: new Date(),
+    },
   ]
 }
