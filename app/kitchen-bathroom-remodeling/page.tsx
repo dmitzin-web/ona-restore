@@ -1,3 +1,30 @@
+import ServiceSchema from '@/components/ServiceSchema'
+import FaqSchema from '@/components/FaqSchema'
+import FaqSection from '@/components/FaqSection'
+
+const remodelingFaqs = [
+  {
+    question: 'Do you offer kitchen remodeling in Vancouver WA?',
+    answer:
+      'Yes. ONA Restoration provides kitchen remodeling, cabinet replacement, flooring, drywall, paint, trim, finish carpentry, and kitchen reconstruction services in Vancouver WA and Clark County.',
+  },
+  {
+    question: 'Do you offer bathroom remodeling in Vancouver WA?',
+    answer:
+      'Yes. ONA Restoration provides bathroom remodeling, vanity replacement, flooring, tile-related repairs, drywall, paint, trim, and bathroom reconstruction services.',
+  },
+  {
+    question: 'Can remodeling be part of property damage reconstruction?',
+    answer:
+      'Yes. Remodeling and upgrades are often considered during the reconstruction phase after water damage, fire damage, smoke damage, mold remediation, or other property damage.',
+  },
+  {
+    question: 'Can you help after an insurance-related repair?',
+    answer:
+      'ONA Restoration can help document visible repair needs and perform reconstruction or remodeling work. Coverage decisions depend on the insurance policy and carrier.',
+  },
+]
+
 export const metadata = {
   title: 'Remodeling Services in Vancouver WA | Kitchen & Bathroom',
   description:
@@ -7,6 +34,12 @@ export const metadata = {
 export default function RemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <FaqSchema items={remodelingFaqs} />
+      <ServiceSchema
+        name="Kitchen and Bathroom Remodeling"
+        description="Kitchen remodeling, bathroom remodeling, reconstruction, cabinets, flooring, tile, drywall, paint, trim, and interior remodeling services in Vancouver WA and Clark County."
+        url="https://onarestore.com/kitchen-bathroom-remodeling"
+      />
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-neutral-500">
           Remodeling Services
@@ -130,6 +163,7 @@ export default function RemodelingPage() {
           </section>
         </div>
       </section>
+      <FaqSection items={remodelingFaqs} />
     </main>
   )
 }
