@@ -1,3 +1,4 @@
+import ServiceSchema from '@/components/ServiceSchema'
 export const metadata = {
   title: 'Bathroom Remodeling in Vancouver WA | ONA Restoration',
   description:
@@ -7,6 +8,11 @@ export const metadata = {
 export default function BathroomRemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <ServiceSchema
+        name="Bathroom Remodeling"
+        description="Bathroom remodeling, vanity replacement, tile, flooring, drywall, paint, trim, moisture-related repairs, and reconstruction services in Vancouver WA and Clark County."
+        url="https://onarestore.com/bathroom-remodeling"
+      />
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-neutral-500">
           Bathroom Remodeling

@@ -1,3 +1,4 @@
+import ServiceSchema from '@/components/ServiceSchema'
 export const metadata = {
   title: 'Kitchen Remodeling in Vancouver WA | ONA Restoration',
   description:
@@ -7,6 +8,11 @@ export const metadata = {
 export default function KitchenRemodelingPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
+      <ServiceSchema
+        name="Kitchen Remodeling"
+        description="Kitchen remodeling, cabinet replacement, flooring, drywall, paint, trim, finish carpentry, and reconstruction services in Vancouver WA and Clark County."
+        url="https://onarestore.com/kitchen-remodeling"
+      />
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-neutral-500">
           Kitchen Remodeling
