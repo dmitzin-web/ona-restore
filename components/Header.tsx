@@ -59,9 +59,30 @@ export default function Header() {
             </div>
           </div>
 
-          <Link href="/kitchen-bathroom-remodeling" className="hover:text-white">
-            Remodeling
-          </Link>
+          <div className="group relative py-3">
+            <Link href="/kitchen-bathroom-remodeling" className="flex items-center gap-1 hover:text-white">
+              Remodeling
+              <span className="text-xs">▾</span>
+            </Link>
+
+            <div className="invisible absolute left-0 top-full z-50 w-64 opacity-0 transition group-hover:visible group-hover:opacity-100">
+              <div className="rounded-2xl border border-white/10 bg-neutral-950 p-3 shadow-2xl">
+                <Link
+                  href="/kitchen-remodeling"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Kitchen Remodeling
+                </Link>
+
+                <Link
+                  href="/bathroom-remodeling"
+                  className="block rounded-xl px-4 py-3 text-neutral-300 hover:bg-white/5 hover:text-white"
+                >
+                  Bathroom Remodeling
+                </Link>
+              </div>
+            </div>
+          </div>
 
           <Link href="/insurance-claims" className="hover:text-white">
             Claims
